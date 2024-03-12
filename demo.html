@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>demo</title>
+<style>
+        /* .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 -10px;
+          }
+          
+          .category-item {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            flex-basis: calc(33.33% - 20px);
+            text-align: center;
+          }
+          
+          @media (max-width: 768px) {
+            .category-item {
+              flex-basis: calc(50% - 20px);
+            }
+          }
+          
+          @media (max-width: 480px) {
+            .category-item {
+              flex-basis: 100%;
+            }
+          } */
+</style>
+    
+    </head>
+    <body>
+        <button id="show-button">Show Div</button>
+        <div id="hidden-div" style="display: none;">This is the hidden div</div>
+
+        <script>
+            // Get the button and hidden div elements
+const showButton = document.getElementById('show-button');
+const hiddenDiv = document.getElementById('hidden-div');
+// Add a click event listener to the button
+showButton.addEventListener('click', () => {
+  // Toggle the visibility of the hidden div
+  hiddenDiv.style.display = hiddenDiv.style.display === 'none' ? 'block' : 'none';
+});
+        </script>
+    </body>
+</html>
